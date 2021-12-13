@@ -1,19 +1,18 @@
-import React from 'react'
-import styles from './FeedPhotosItem.module.css'
+import React from "react";
+import Image from "../Helper/Image";
+import styles from "./FeedPhotosItem.module.css";
 
-
-const FeedPhotosItem = ({photo, setModalPhoto}) => {
-  
+const FeedPhotosItem = ({ photo, setModalPhoto }) => {
   function handleClick() {
-    setModalPhoto(photo)
+    setModalPhoto(photo);
   }
-  
+
   return (
     <li className={styles.photo} onClick={handleClick}>
-      <img src={photo.src} alt={photo.title} />
+      <Image alt={photo.title} src={photo.src} />
       <span className={styles.visualizacao}>{photo.acessos}</span>
     </li>
-  )
-}
+  );
+};
 
-export default FeedPhotosItem
+export default FeedPhotosItem;
