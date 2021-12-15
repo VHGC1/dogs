@@ -63,12 +63,12 @@ const UserPhotoPost = () => {
         )}
         <Error error={error} />
       </form>
-
+          {img.preview && console.log((img.preview).slice("blob"))}
       <div>
         {img.preview && (
           <div
             className={styles.preview}
-            styles={{ backgroundImage: `url('${img.preview}')` }}
+            style={{ backgroundImage: `url('${img.preview}')` }}
           ></div>
         )}
       </div>

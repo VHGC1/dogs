@@ -39,10 +39,8 @@
 .single .img {
   grid-row: 1;
   border-radius: .4rem;
-  overflow: hidden;
+  overflow: unset;
 }
-
-
 
 .author {
   opacity: .5;
