@@ -24,7 +24,7 @@ Criação da aplicação Dogs, uma rede social para cachorros criada no curso de
 
 ### Links
 
-- Live Site URL: <a href="https://dogs-vhgc1.vercel.app/" target="_blank">Dogs</a>
+- Live Site URL: [Dogs](https://dogs-vhgc1.vercel.app/) 
 
 ### Built with
 
